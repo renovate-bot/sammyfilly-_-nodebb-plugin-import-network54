@@ -12,11 +12,6 @@ async@~0.9.0:
   resolved "https://registry.yarnpkg.com/async/-/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
   integrity sha1-rqdNXmHB+JlhO/ZL2mbUx48v0X0=
 
-at-least-node@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
-  integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
-
 bignumber.js@9.0.0:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.0.tgz#805880f84a329b5eac6e7cb6f8274b6d82bdf075"
@@ -50,12 +45,11 @@ fastqueue@~0.1.0:
   resolved "https://registry.yarnpkg.com/fastqueue/-/fastqueue-0.1.0.tgz#6c691016b3806186476eeb05a717babb8f633c19"
   integrity sha1-bGkQFrOAYYZHbusFpxe6u49jPBk=
 
-fs-extra@^9.0.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
-  integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
+fs-extra@^11.0.0:
+  version "11.3.6"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.6.tgz#f7cb80e9df550cd1db6f537fa5cdd568d3e70d10"
+  integrity sha512-w8ZNZr2mKIc7qeNaQ9AVPT1+iFaI+Avd4xudVOvdDJ8VytREi1Ft5Ih7hd9jjehod8vAM5GMsfQ/TpPf4EyoEA==
   dependencies:
-    at-least-node "^1.0.0"
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
     universalify "^2.0.0"
